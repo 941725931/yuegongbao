@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "约工宝",
+  "usingComponents": {
+    "all": "/pages/dingdan/all/all",
+    "cancel": "/pages/dingdan/cancel/cancel",
+    "complete": "/pages/dingdan/complete/complete",
+    "refund": "/pages/dingdan/refund/refund",
+    "wait": "/pages/dingdan/Wait/Wait"
+  }
+}

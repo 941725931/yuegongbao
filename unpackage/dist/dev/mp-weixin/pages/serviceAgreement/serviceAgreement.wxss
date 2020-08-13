@@ -1,0 +1,14 @@
+.serviceAgreement {
+  padding-bottom: 90rpx;
+}
+.serviceAgreement .bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 88rpx;
+  text-align: center;
+  background-color: #E83235;
+  color: #fff;
+  font-size: 28rpx;
+}
+

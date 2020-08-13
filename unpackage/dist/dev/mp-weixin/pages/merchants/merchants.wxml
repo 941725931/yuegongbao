@@ -1,0 +1,1 @@
+<view class="merchants"><rich-text nodes="{{details}}"></rich-text></view>

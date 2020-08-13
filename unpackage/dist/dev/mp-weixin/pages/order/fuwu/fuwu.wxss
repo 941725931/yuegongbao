@@ -1,0 +1,260 @@
+.xuanzefuwu {
+  background-color: #F8F8F8;
+  border-bottom: 1rpx solid transparent;
+}
+.xuanzefuwu .detail {
+  width: 100%;
+  margin-top: 18rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 31rpx;
+  padding-bottom: 10rpx;
+}
+.xuanzefuwu .detail .show {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-top: 1px solid #E3E1E1;
+  border-bottom: 1px solid #E3E1E1;
+}
+.xuanzefuwu .detail .show text {
+  width: 33.33%;
+  text-align: center;
+  line-height: 76rpx;
+  color: #888;
+  font-size: 27rpx;
+}
+.xuanzefuwu .detail .feiyong {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30rpx;
+  color: #222;
+  margin-top: 19rpx;
+  margin-bottom: 13rpx;
+}
+.xuanzefuwu .detail .myred {
+  color: #E83235;
+}
+.xuanzefuwu .detail .mulu {
+  border-bottom: 1px solid #E3E1E1;
+  font-weight: 600;
+}
+.xuanzefuwu .detail .mulu .selected {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.xuanzefuwu .detail .mulu .selected .red {
+  color: #FE1D1D;
+}
+.xuanzefuwu .detail .mulu .selected view {
+  color: #222;
+  font-size: 28rpx;
+  text-align: center;
+  width: 33.33%;
+  line-height: 76rpx;
+}
+.xuanzefuwu .combined {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #FE1D1D;
+  text-align: right;
+  margin-top: 10rpx;
+}
+.xuanzefuwu .instructions {
+  background-color: #fff;
+  border-bottom: 1rpx solid #fff;
+  border-top: 1rpx solid #fff;
+  margin-top: 26rpx;
+}
+.xuanzefuwu .instructions .xiadan {
+  background-color: #DAE2EB;
+  width: 709rpx;
+  border-top: 1rpx solid #DAE2EB;
+  margin: 26rpx auto 0;
+}
+.xuanzefuwu .instructions .xiadan text {
+  display: block;
+  color: #222;
+  font-size: 25rpx;
+  line-height: 60rpx;
+  margin: 0 50rpx;
+}
+.xuanzefuwu .instructions .xiadan image {
+  width: 86%;
+  display: block;
+  margin: 27rpx auto 15rpx;
+  height: 30rpx;
+}
+.xuanzefuwu .instructions .contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  color: #1D82FE;
+  font-size: 24rpx;
+  margin: 62rpx auto 30rpx;
+}
+.xuanzefuwu .instructions .contact .inquiry {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.xuanzefuwu .instructions .contact .inquiry .phone {
+  background-color: #1D82FE;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  margin: -4rpx 10rpx 0 0;
+}
+.xuanzefuwu .instructions .contact .inquiry .phone view {
+  color: #fff;
+  width: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 20rpx;
+}
+.xuanzefuwu .terms {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 24rpx;
+  color: #1D82FE;
+  height: 60rpx;
+  margin-top: 70rpx;
+  margin-bottom: 222rpx;
+}
+.xuanzefuwu .terms .yes {
+  width: 58rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  background-color: #1D82FE;
+  margin: -12rpx 10rpx 0 0;
+}
+.xuanzefuwu .terms .yes view {
+  color: #fff;
+  width: 58rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+.xuanzefuwu .terms .no {
+  width: 58rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  margin: -12rpx 10rpx 0 0;
+}
+.xuanzefuwu .terms .no view {
+  color: #fff;
+  width: 58rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+.xuanzefuwu .header {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 31rpx;
+}
+.xuanzefuwu .header .hide {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.xuanzefuwu .header .hide .hideText {
+  color: #888;
+}
+.xuanzefuwu .header .show {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.xuanzefuwu .header .show .right {
+  margin-left: 20rpx;
+  letter-spacing: 4rpx;
+}
+.xuanzefuwu .header .show .myblue {
+  color: #1D82FE;
+}
+.xuanzefuwu .header .project {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30rpx;
+  color: #222;
+  margin-top: 19rpx;
+  margin-bottom: 24rpx;
+}
+.xuanzefuwu .header .main {
+  width: 100%;
+  padding-bottom: 4rpx;
+  border-bottom: 1rpx solid #E3E1E1;
+  margin: 0 auto 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.xuanzefuwu .header .main image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+  margin-right: 20rpx;
+}
+.xuanzefuwu .header .main .describe {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.xuanzefuwu .header .main .describe .jianjie {
+  display: block;
+  margin-top: -2rpx;
+  font-size: 28rpx;
+  color: #888;
+}
+.xuanzefuwu .header .main .describe .bottom {
+  margin-top: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.xuanzefuwu .header .main .describe .bottom view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.xuanzefuwu .header .main .describe .bottom .xiaokong {
+  height: 54rpx;
+  line-height: 28rpx;
+  box-sizing: border-box;
+  border-radius: 6rpx;
+  font-size: 26rpx;
+  padding: 10rpx;
+  color: #E83235;
+  border: 1rpx solid #E83235;
+}
+.xuanzefuwu .header .main .describe .bottom .jiaOrJian text {
+  display: block;
+  margin: 0 3rpx;
+  background-color: #EBEBEB;
+  color: #343434;
+  width: 56rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+

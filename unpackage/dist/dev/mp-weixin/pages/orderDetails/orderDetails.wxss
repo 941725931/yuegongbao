@@ -1,0 +1,511 @@
+.orderDetails .newAddress {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  box-sizing: border-box;
+  height: 85rpx;
+  padding: 0 34rpx;
+  font-size: 28rpx;
+  color: #222;
+  border-bottom: 1rpx solid #E7E7E7;
+}
+.orderDetails .newAddress image {
+  width: 14rpx;
+  height: 24rpx;
+  margin-top: 30rpx;
+}
+.orderDetails .newAddress view {
+  line-height: 85rpx;
+}
+.orderDetails .xinxi .lianxiren {
+  box-sizing: border-box;
+  padding: 34rpx 32rpx 24rpx;
+  border-bottom: 1rpx solid #E7E7E7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.orderDetails .xinxi .lianxiren view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  color: #222;
+  font-size: 30rpx;
+}
+.orderDetails .xinxi .lianxiren .one {
+  font-weight: 600;
+}
+.orderDetails .xinxi .lianxiren .number {
+  color: #FD5356;
+  font-size: 24rpx;
+}
+.orderDetails .xinxi .dizhi {
+  box-sizing: border-box;
+  padding: 29rpx 32rpx 24rpx;
+  border-bottom: 1rpx solid #E7E7E7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.orderDetails .xinxi .dizhi .xidz {
+  width: 599rpx;
+  font-size: 28rpx;
+  color: #222;
+}
+.orderDetails .xinxi .dizhi image {
+  margin-top: 8rpx;
+  width: 14rpx;
+  height: 24rpx;
+}
+.orderDetails .xiangqing .shangmenshijian {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  box-sizing: border-box;
+  height: 85rpx;
+  padding: 0 34rpx;
+  font-size: 28rpx;
+  color: #222;
+  border-bottom: 1rpx solid #E7E7E7;
+}
+.orderDetails .xiangqing .shangmenshijian .shangmenshijianTop {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 85rpx;
+}
+.orderDetails .xiangqing .shangmenshijian .shangmenshijianTop .one {
+  font-weight: 600;
+}
+.orderDetails .xiangqing .shangmenshijian .shangmenshijianTop .two {
+  color: #ccc;
+}
+.orderDetails .xiangqing .shangmenshijian image {
+  width: 14rpx;
+  height: 24rpx;
+  margin-top: 30rpx;
+}
+.orderDetails .xiangqing .dingdanxiangqing {
+  color: #222;
+  font-size: 28rpx;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan1 {
+  font-weight: 600;
+  line-height: 83rpx;
+  border-bottom: 1rpx solid #E7E7E7;
+  box-sizing: border-box;
+  padding: 0 34rpx;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan .main {
+  width: 100%;
+  border-bottom: 1rpx solid #E3E1E1;
+  box-sizing: border-box;
+  padding: 19rpx 29rpx 12rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan .main image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+  margin-right: 20rpx;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan .main .describe {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan .main .describe .shuliang {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 15rpx;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan .main .describe .shuliang .xiaokong {
+  height: 54rpx;
+  line-height: 28rpx;
+  box-sizing: border-box;
+  border-radius: 6rpx;
+  font-size: 26rpx;
+  padding: 10rpx;
+  color: #E83235;
+  border: 1rpx solid #E83235;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan .main .describe .shuliang .geshu {
+  font-size: 24rpx;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan .main .describe .shuliang .geshu .paddingText {
+  padding: 0 10rpx;
+}
+.orderDetails .xiangqing .dingdanxiangqing .dingdan .main .describe .jianjie {
+  display: block;
+  margin-top: -2rpx;
+  font-size: 28rpx;
+  color: #888;
+}
+.orderDetails .xiangqing .youhuiquan {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  box-sizing: border-box;
+  height: 85rpx;
+  padding: 0 34rpx;
+  font-size: 28rpx;
+  color: #222;
+  border-bottom: 1rpx solid #E7E7E7;
+}
+.orderDetails .xiangqing .youhuiquan view {
+  width: 650rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.orderDetails .xiangqing .youhuiquan view text {
+  line-height: 85rpx;
+  font-weight: 600;
+}
+.orderDetails .xiangqing .youhuiquan view .two {
+  font-size: 24rpx;
+  color: #666;
+}
+.orderDetails .xiangqing .youhuiquan image {
+  width: 14rpx;
+  height: 24rpx;
+  margin-top: 34rpx;
+}
+.orderDetails .xiangqing .zhifumingxi {
+  font-size: 28rpx;
+  color: #222;
+  border-bottom: 1rpx solid #E7E7E7;
+}
+.orderDetails .xiangqing .zhifumingxi .mingxi {
+  font-weight: 600;
+  line-height: 83rpx;
+  box-sizing: border-box;
+  padding: 0 34rpx;
+  border-bottom: 1rpx solid #E7E7E7;
+}
+.orderDetails .xiangqing .zhifumingxi .xiangqing {
+  box-sizing: border-box;
+  padding: 44rpx 34rpx 29rpx;
+  border-bottom: 1rpx solid #e7e7e7;
+}
+.orderDetails .xiangqing .zhifumingxi .xiangqing .fuwufei {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.orderDetails .xiangqing .zhifumingxi .xiangqing .fuwufei .right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.orderDetails .xiangqing .zhifumingxi .xiangqing .fuwufei .right .red {
+  color: #E83235;
+}
+.orderDetails .xiangqing .zhifumingxi .xiangqing .fuwufei .right .paddingText {
+  padding: 0 10rpx;
+}
+.orderDetails .xiangqing .zhifumingxi .xiangqing .new {
+  color: #666;
+  text-align: right;
+  font-size: 22rpx;
+}
+.orderDetails .xiangqing .zhifumingxi .xiangqing .new .xinyonghu {
+  display: inline-block;
+  border-radius: 4rpx;
+  text-align: center;
+  padding: 0 10rpx;
+  line-height: 36rpx;
+  background-color: #FFEEEB;
+  font-size: 20rpx;
+  color: #FE1D1D;
+}
+.orderDetails .xiangqing .zhifumingxi .xiangqing .new .margin {
+  margin: 0 10rpx;
+}
+.orderDetails .xiangqing .zhifumingxi .heji {
+  box-sizing: border-box;
+  padding: 0 34rpx;
+  line-height: 62rpx;
+  font-size: 30rpx;
+  color: #FE1D1D;
+  font-weight: 600;
+  text-align: right;
+  border-bottom: 0rpx solid #e7e7e7;
+}
+.orderDetails .xiangqing .dingdanbeizhu {
+  border-top: 1rpx solid transparent;
+  margin-bottom: 230rpx;
+}
+.orderDetails .xiangqing .dingdanbeizhu textarea {
+  width: 684rpx;
+  height: 106rpx;
+  margin: 34rpx auto 0;
+  box-sizing: border-box;
+  padding: 0 23rpx;
+  color: #888;
+  font-size: 28rpx;
+  resize: none;
+  border: 1rpx solid #CFCFCF;
+  border-radius: 20rpx;
+}
+.orderDetails .xiangqing .nodisplay {
+  display: none;
+}
+.orderDetails .xiangqing .gonggao {
+  position: relative;
+  height: 80rpx;
+  padding-bottom: 118rpx;
+  color: #FD5356;
+  font-size: 24rpx;
+}
+.orderDetails .xiangqing .gonggao .gonggaoview {
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  padding: 0 34rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  line-height: 80rpx;
+  background-color: #FFFAE4;
+}
+.orderDetails .xiangqing .gonggao .gonggaoview .middle {
+  width: 600rpx;
+  overflow: hidden;
+}
+.orderDetails .xiangqing .gonggao .gonggaoview .middle .zhongjian {
+  display: inline-block;
+  width: 600rpx;
+  text-align: center;
+  -webkit-animation: go 10s infinite linear;
+          animation: go 10s infinite linear;
+}
+@-webkit-keyframes go {
+from {
+    -webkit-transform: translateX(600rpx);
+            transform: translateX(600rpx);
+}
+to {
+    -webkit-transform: translateX(-600rpx);
+            transform: translateX(-600rpx);
+}
+}
+@keyframes go {
+from {
+    -webkit-transform: translateX(600rpx);
+            transform: translateX(600rpx);
+}
+to {
+    -webkit-transform: translateX(-600rpx);
+            transform: translateX(-600rpx);
+}
+}
+.orderDetails .xiangqing .lijixiadan {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  height: 118rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.orderDetails .xiangqing .lijixiadan .jine {
+  width: 517rpx;
+  box-sizing: border-box;
+  padding-left: 31rpx;
+  font-size: 30rpx;
+  color: #222;
+}
+.orderDetails .xiangqing .lijixiadan .jine .one {
+  line-height: 59rpx;
+}
+.orderDetails .xiangqing .lijixiadan .jine .one #red {
+  color: #E83235;
+}
+.orderDetails .xiangqing .lijixiadan .xiadan {
+  text-align: center;
+  width: 233rpx;
+  background-color: #E83235;
+  font-size: 36rpx;
+  color: #fff;
+  line-height: 119rpx;
+  letter-spacing: 4rpx;
+}
+.orderDetails .none {
+  display: none;
+}
+.orderDetails .bottomWindow {
+  position: absolute;
+  z-index: 9999999999;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.orderDetails .bottomWindow .window {
+  position: fixed;
+  z-index: 99999999999;
+  bottom: -690rpx;
+  background-color: #fff;
+  height: 690rpx;
+  width: 100%;
+  border-radius: 16rpx 16rpx 0px 0px;
+}
+.orderDetails .bottomWindow .window .wudingdan {
+  display: block;
+  width: 400rpx;
+  height: 330rpx;
+  margin: auto;
+  margin-top: -370rpx;
+}
+.orderDetails .bottomWindow .window .one {
+  font-size: 28rpx;
+  text-align: center;
+  margin: 44rpx 0 35rpx;
+  font-weight: 800;
+}
+.orderDetails .bottomWindow .window .bushiyong {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  line-height: 99rpx;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  margin-top: 33rpx;
+  border-top: 1rpx solid #D2D2D2;
+  border-bottom: 1rpx solid #D2D2D2;
+}
+.orderDetails .bottomWindow .window .bushiyong .bushiyongone {
+  font-size: 26rpx;
+  color: #666;
+  letter-spacing: 8rpx;
+  font-weight: normal;
+}
+.orderDetails .bottomWindow .window .bushiyong .bushiyongtwo {
+  width: 30rpx;
+  height: 30rpx;
+  margin: auto 0;
+  border-radius: 50%;
+  border: 1rpx solid #666;
+}
+.orderDetails .bottomWindow .window .bushiyong .bushiyongtwo text {
+  display: block;
+  width: 23rpx;
+  height: 23rpx;
+  margin-top: 4rpx;
+  margin-left: 4rpx;
+  border-radius: 50%;
+  background-color: #1AA034;
+}
+.orderDetails .bottomWindow .window .preferentialList {
+  height: 400rpx;
+  overflow: auto;
+}
+.orderDetails .bottomWindow .window .preferentialList .list {
+  box-sizing: border-box;
+  padding-left: 28rpx;
+}
+.orderDetails .bottomWindow .window .preferentialList .list .dg {
+  position: relative;
+}
+.orderDetails .bottomWindow .window .preferentialList .list .dg image {
+  width: 513rpx;
+  height: 139rpx;
+}
+.orderDetails .bottomWindow .window .preferentialList .list .dg .riqi {
+  position: absolute;
+  width: 335rpx;
+  text-align: center;
+  top: 8rpx;
+  left: 175rpx;
+}
+.orderDetails .bottomWindow .window .preferentialList .list .dg .riqi text {
+  color: #fff;
+  font-size: 20rpx;
+}
+.orderDetails .bottomWindow .window .preferentialList .list .dg .price {
+  position: absolute;
+  width: 335rpx;
+  text-align: center;
+  top: 40rpx;
+  left: -88rpx;
+  color: #fff;
+}
+.orderDetails .bottomWindow .window .preferentialList .list .dg .price .fuhao {
+  font-size: 30rpx;
+}
+.orderDetails .bottomWindow .window .preferentialList .list .dg .price .money {
+  font-size: 45rpx;
+}
+.orderDetails .bottomWindow .window .preferentialList .list .dg .meet {
+  position: absolute;
+  width: 335rpx;
+  text-align: center;
+  top: 58rpx;
+  left: 175rpx;
+  color: #fff;
+  font-size: 20rpx;
+  font-weight: 700;
+}
+.orderDetails .bottomWindow .show {
+  -webkit-animation: run 0.4s;
+          animation: run 0.4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes run {
+to {
+    bottom: 0;
+}
+}
+@keyframes run {
+to {
+    bottom: 0;
+}
+}
+

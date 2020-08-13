@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "优惠券",
+  "usingComponents": {
+    "dontuse": "/pages/coupons/Dontuse/Dontuse",
+    "expired": "/pages/coupons/expired/expired"
+  }
+}

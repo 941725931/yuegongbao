@@ -1,0 +1,1 @@
+<view class="stayin"><rich-text nodes="{{details}}"></rich-text></view>

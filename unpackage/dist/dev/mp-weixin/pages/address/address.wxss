@@ -1,0 +1,80 @@
+.address {
+  position: absolute;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+.address .ShippingAddress {
+  width: 750rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+  padding: 31rpx;
+  color: #222;
+  background-color: #fff;
+}
+.address .ShippingAddress .people {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 30rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.address .ShippingAddress .dizhi {
+  font-size: 28rpx;
+  line-height: 50rpx;
+  margin-bottom: 40rpx;
+}
+.address .ShippingAddress .operation {
+  height: 40rpx;
+}
+.address .ShippingAddress .operation view {
+  width: 50%;
+}
+.address .ShippingAddress .operation .default {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  float: left;
+}
+.address .ShippingAddress .operation .default .iconfont {
+  display: block;
+  width: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 26rpx;
+  background: #E83235;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 31rpx;
+}
+.address .ShippingAddress .operation .default .one {
+  margin-top: 4rpx;
+  font-size: 26rpx;
+  color: #222;
+  font-weight: 600;
+}
+.address .ShippingAddress .operation .editor {
+  float: right;
+  box-sizing: border-box;
+  padding: 0 50rpx;
+}
+.address .ShippingAddress .operation .editor text {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  font-size: 26rpx;
+}
+.address .add {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  letter-spacing: 2rpx;
+  line-height: 98rpx;
+  background-color: #E73437;
+  color: #fff;
+  font-size: 26rpx;
+  text-align: center;
+}
+

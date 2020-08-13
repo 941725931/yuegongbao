@@ -1,0 +1,40 @@
+.SwitchAddress {
+  position: absolute;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+.SwitchAddress .ShippingAddress {
+  width: 750rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+  padding: 31rpx;
+  color: #222;
+  background-color: #fff;
+}
+.SwitchAddress .ShippingAddress .people {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 30rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.SwitchAddress .ShippingAddress .dizhi {
+  font-size: 28rpx;
+  line-height: 50rpx;
+  margin-bottom: 40rpx;
+}
+.SwitchAddress .add {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  letter-spacing: 2rpx;
+  line-height: 98rpx;
+  background-color: #E73437;
+  color: #fff;
+  font-size: 26rpx;
+  text-align: center;
+}
+

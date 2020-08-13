@@ -1,0 +1,465 @@
+.container {
+  position: absolute;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.container .buttonCoupons {
+  position: fixed;
+  right: 14rpx;
+  bottom: 149rpx;
+}
+.container .buttonCoupons .iconfont {
+  position: absolute;
+  top: -45rpx;
+  right: 10rpx;
+  color: red;
+}
+.container .buttonCoupons .button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 149rpx;
+  line-height: 74px;
+  background-color: transparent;
+  color: transparent;
+}
+.container .buttonCoupons .button:after {
+  border: none;
+}
+.container .buttonCoupons image {
+  width: 170rpx;
+  height: 150rpx;
+}
+.container .DiscountWindow {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(51, 51, 51, 0.5);
+}
+.container .DiscountWindow view {
+  position: absolute;
+  width: 528.5rpx;
+  height: 527.2rpx;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.container .DiscountWindow view .ImmediateUse {
+  width: 260rpx;
+  height: 56rpx;
+  position: absolute;
+  top: 365rpx;
+  left: 126rpx;
+  background-color: transparent;
+}
+.container .DiscountWindow view .text {
+  position: absolute;
+  top: 168rpx;
+  left: 70rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+.container .DiscountWindow view .iconfont {
+  position: absolute;
+  right: -64rpx;
+  top: -94rpx;
+  font-size: 64rpx;
+  color: #ED3927;
+}
+.container .DiscountWindow view image {
+  position: absolute;
+  width: 528.5rpx;
+  height: 527.2rpx;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.container .DiscountWindow view .fuhao {
+  position: absolute;
+  top: 252rpx;
+  left: 152rpx;
+  font-size: 60rpx;
+}
+.container .DiscountWindow view .jine {
+  position: absolute;
+  top: 255rpx;
+  left: 212rpx;
+  font-size: 56rpx;
+}
+.container .bottomWindow {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container .window {
+  position: fixed;
+  z-index: 999999;
+  height: 371rpx;
+  width: 100%;
+  bottom: -371rpx;
+  background-color: #F7F7F7;
+  border-radius: 16rpx 16rpx 0px 0px;
+}
+.container .window text {
+  display: block;
+  line-height: 117rpx;
+  text-align: center;
+  background-color: #fff;
+}
+.container .window .number {
+  font-size: 28rpx;
+  color: #888;
+  border-bottom: 2rpx solid #EBEBEB;
+}
+.container .window .margin {
+  margin-top: 19rpx;
+}
+.container .window .hujiao {
+  font-size: 30rpx;
+  color: #222;
+  font-weight: 600;
+}
+.container .show {
+  -webkit-animation: run 0.4s;
+          animation: run 0.4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.container .city-address .uni-list-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container .city-address .uni-list-cell .picker {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container .city-address .uni-list-cell .picker .uni-input {
+  display: inline;
+}
+.container .city-address .uni-list-cell .picker .switch {
+  display: inline;
+  margin-left: 8rpx;
+  color: #E63235;
+}
+.container .remind {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 712rpx;
+  height: 109rpx;
+  padding: 0 15rpx;
+  margin: -6rpx auto 29rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+}
+.container .remind .remindxiangxi {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.container .remind .remindxiangxi .ddtx {
+  width: 512rpx;
+  line-height: 55rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #222222;
+}
+.container .remind .lianxi {
+  width: 148rpx;
+  height: 61rpx;
+  margin: auto 0;
+  line-height: 61rpx;
+  border: 2rpx solid;
+  border-radius: 4rpx;
+  font-size: 28rpx;
+  color: #1D82FE;
+  text-align: center;
+}
+.container .understand {
+  display: block;
+  margin: 22rpx 0;
+  margin-bottom: 130rpx;
+  font-size: 22rpx;
+  color: #999;
+  letter-spacing: 3rpx;
+  text-align: center;
+}
+.container .phone {
+  width: 642rpx;
+  position: fixed;
+  bottom: 36rpx;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 25%;
+}
+.container .phone .tel {
+  position: relative;
+  height: 76rpx;
+}
+.container .phone .tel .contact {
+  width: 100%;
+  height: 100%;
+}
+.container .phone .tel .text {
+  position: absolute;
+  top: 20rpx;
+  left: 157rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+.container .city {
+  position: relative;
+  top: -90rpx;
+  left: 20rpx;
+  z-index: 1;
+  width: 710rpx;
+  height: 181rpx;
+  font-size: 27rpx;
+  font-weight: bold;
+  color: #333333;
+  background: #ffffff;
+  box-shadow: 0px 2px 9px 0px rgba(215, 215, 215, 0.8);
+  border-radius: 10rpx;
+}
+.container .city .city-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.container .city .city-content .city-content-right {
+  margin-top: 81rpx;
+  color: #E63235;
+  margin-right: 55rpx;
+}
+.container .city .city-content .city-content-right ._img {
+  position: relative;
+  top: 5rpx;
+  left: 24rpx;
+  width: 17rpx;
+  height: 26rpx;
+}
+.container .city .city-content .city-content-left {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 450rpx;
+}
+.container .city .city-content .city-content-left ._img {
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 27rpx;
+  margin-top: 31rpx;
+  background: #f2bfbf;
+  border-radius: 50%;
+}
+.container .city .city-content .city-content-left .name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 60rpx;
+  margin-left: 20rpx;
+  height: 30rpx;
+  width: 340rpx;
+  font-size: 30rpx;
+  line-height: 30rpx;
+}
+.container .city .city-content .city-content-left .name text {
+  display: inline-block;
+}
+.container .city .city-content .city-content-left .name .people {
+  color: red;
+}
+.container .city .city-content .city-content-left .name .myname {
+  width: 100rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: -5rpx;
+}
+.container .city .city-content .city-content-left button {
+  position: absolute;
+  bottom: 18rpx;
+  left: 124rpx;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  width: 190rpx;
+  font-weight: normal;
+}
+.container .city .city-address {
+  margin-top: 8rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .city .city-address .address-icon {
+  margin-left: 59rpx;
+  margin-right: 11rpx;
+  width: 21rpx;
+  height: 30rpx;
+}
+.container .introducer {
+  width: 750rpx;
+  height: 170rpx;
+  background-color: #e83235;
+  border-radius: 0rpx 0rpx 40rpx 40rpx;
+}
+.container .introducer .introTitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-content: center;
+          align-content: center;
+  box-sizing: border-box;
+  padding-top: 20rpx;
+  font-size: 24rpx;
+  font-family: Source Han Sans SC;
+  font-weight: bold;
+  color: #ffffff;
+}
+.container .introducer .introTitle .shareIcon {
+  width: 42rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background: #b8282a;
+  border-radius: 15rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .introducer .introTitle .shareIcon ._img {
+  width: 31rpx;
+  height: 11rpx;
+}
+.container .introducer .introTitle .upIcon {
+  width: 11rpx;
+  height: 26rpx;
+  padding-left: 24rpx;
+}
+.container .merchant {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 750rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  margin-bottom: 200rpx;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.container .merchant .mer-content {
+  width: 345rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  background: #ffffff;
+  box-shadow: 0px -1px 8px 0px rgba(203, 203, 203, 0.8);
+  border-radius: 10rpx;
+}
+.container .merchant .mer-content .mer-name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .merchant .mer-content .mer-name image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 21rpx;
+  margin-left: 25rpx;
+  border-radius: 50%;
+}
+.container .merchant .mer-content .mer-name text {
+  margin-left: 17rpx;
+  font-size: 34rpx;
+  color: #202020;
+  font-weight: bold;
+}
+.container .merchant .mer-content .mer-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 17rpx;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.container .merchant .mer-content .mer-price ._img {
+  width: 138rpx;
+  height: 51rpx;
+  background: #e83235;
+  border-radius: 10rpx;
+}
+.container .merchant .mer-content .mer-price text {
+  font-size: 32rpx;
+  color: #E83235;
+  font-weight: 600;
+}
+.container .ad-column ._img {
+  width: 750rpx;
+  height: 140rpx;
+  margin-top: -65rpx;
+  margin-bottom: 12rpx;
+}
+@-webkit-keyframes run {
+to {
+    bottom: 0;
+}
+}
+@keyframes run {
+to {
+    bottom: 0;
+}
+}
+.container #red {
+  color: #E83235;
+}
+

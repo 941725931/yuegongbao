@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "约工宝",
+  "usingComponents": {
+    "h-time-picker": "/components/h-timePicker/h-timePicker"
+  }
+}

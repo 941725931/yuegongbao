@@ -1,0 +1,28 @@
+.strong {
+  display: block;
+  font-size: 36rpx;
+  font-weight: 600;
+  text-align: center;
+  color: #222;
+  margin: 30rpx auto 40rpx;
+}
+.logo {
+  width: 190rpx;
+  margin: auto;
+  height: 160rpx;
+  margin-bottom: 54rpx;
+}
+.logo image {
+  width: 190rpx;
+  height: 160rpx;
+}
+.jiesao {
+  display: block;
+  width: 697rpx;
+  margin: auto;
+  color: #222;
+  font-size: 28rpx;
+  line-height: 50rpx;
+  text-indent: 72rpx;
+}
+

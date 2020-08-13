@@ -1,0 +1,58 @@
+.expired {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+.expired .wudingdan {
+  display: block;
+  width: 400rpx;
+  height: 330rpx;
+  margin: 200rpx auto;
+}
+.expired view {
+  position: relative;
+}
+.expired view .time {
+  position: absolute;
+  bottom: 38rpx;
+  left: 66rpx;
+  font-size: 18rpx;
+  color: #FFFFFF;
+}
+.expired view .price {
+  position: absolute;
+  width: 335rpx;
+  text-align: center;
+  top: 78rpx;
+  left: -36rpx;
+  color: #fff;
+}
+.expired view .price .fuhao {
+  font-size: 30rpx;
+}
+.expired view .price .money {
+  font-size: 45rpx;
+}
+.expired view image {
+  width: 600rpx;
+  height: 160rpx;
+  margin-left: 47rpx;
+  margin-top: 39rpx;
+  border-radius: 10rpx;
+}
+.expired view .condition {
+  position: absolute;
+  width: 335rpx;
+  text-align: center;
+  top: 118rpx;
+  left: 234rpx;
+  color: #fff;
+}
+.expired view .number {
+  position: absolute;
+  top: 65rpx;
+  left: 485rpx;
+  color: #fff;
+}
+

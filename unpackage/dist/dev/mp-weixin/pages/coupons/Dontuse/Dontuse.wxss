@@ -1,0 +1,58 @@
+.Dontuse {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+.Dontuse .wudingdan {
+  display: block;
+  width: 400rpx;
+  height: 330rpx;
+  margin: 200rpx auto;
+}
+.Dontuse view {
+  position: relative;
+}
+.Dontuse view .time {
+  position: absolute;
+  bottom: 38rpx;
+  left: 66rpx;
+  font-size: 18rpx;
+  color: #FFFFFF;
+}
+.Dontuse view .price {
+  position: absolute;
+  width: 335rpx;
+  text-align: center;
+  top: 78rpx;
+  left: -36rpx;
+  color: #fff;
+}
+.Dontuse view .price .fuhao {
+  font-size: 30rpx;
+}
+.Dontuse view .price .money {
+  font-size: 45rpx;
+}
+.Dontuse view image {
+  width: 600rpx;
+  height: 160rpx;
+  margin-left: 47rpx;
+  margin-top: 39rpx;
+  border-radius: 10rpx;
+}
+.Dontuse view .condition {
+  position: absolute;
+  width: 335rpx;
+  text-align: center;
+  top: 118rpx;
+  left: 234rpx;
+  color: #fff;
+}
+.Dontuse view .number {
+  position: absolute;
+  top: 65rpx;
+  left: 485rpx;
+  color: #fff;
+}
+

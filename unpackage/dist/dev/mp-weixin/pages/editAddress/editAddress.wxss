@@ -1,0 +1,120 @@
+.editAddress {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #F8F8F8;
+}
+.editAddress .header {
+  box-sizing: border-box;
+  padding: 36rpx 0 0 13rpx ;
+  color: #222;
+  background-color: #fff;
+}
+.editAddress .header .text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+  margin-bottom: 30rpx;
+}
+.editAddress .header .bitian {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: 2rpx solid #E3E1E1;
+  border-top: 1rpx solid transparent;
+  height: 84rpx;
+}
+.editAddress .header .bitian .xxx {
+  opacity: 0;
+}
+.editAddress .header .bitian .two {
+  color: #E83235;
+  font-size: 12rpx;
+  margin-top: 48rpx;
+  margin-right: 4rpx;
+}
+.editAddress .header .bitian .tianxie {
+  margin-top: 34rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 26rpx;
+}
+.editAddress .header .bitian .tianxie text {
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 90rpx;
+  width: 120rpx;
+}
+.editAddress .header .bitian .tianxie .bitiantext {
+  width: 400rpx;
+  margin-right: 0rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.editAddress .header .menpai {
+  border-bottom: none;
+  height: 94rpx;
+}
+.editAddress .default {
+  box-sizing: border-box;
+  padding: 0 28rpx;
+  margin-top: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.editAddress .default text {
+  font-weight: 600;
+  font-size: 26rpx;
+  color: #222;
+}
+.editAddress .default .huakuai {
+  position: relative;
+  width: 104rpx;
+  height: 53rpx;
+  border: 2rpx solid red;
+  background: red;
+  border-radius: 27rpx;
+}
+.editAddress .default .huakuai .qiu {
+  position: absolute;
+  left: 0;
+  width: 53rpx;
+  height: 53rpx;
+  background: #fefefe;
+  border-radius: 50%;
+}
+.editAddress .default .nHuakuai {
+  position: relative;
+  width: 104rpx;
+  height: 53rpx;
+  border: 2rpx solid #1d82fe;
+  background: #1d82fe;
+  border-radius: 27rpx;
+}
+.editAddress .default .nHuakuai .nQiu {
+  position: absolute;
+  right: 0;
+  width: 53rpx;
+  height: 53rpx;
+  background: #fefefe;
+  border-radius: 50%;
+}
+.editAddress .add {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  letter-spacing: 2rpx;
+  line-height: 98rpx;
+  background-color: #E73437;
+  color: #fff;
+  font-size: 34rpx;
+  text-align: center;
+}
+

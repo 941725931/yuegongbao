@@ -1,0 +1,97 @@
+.red {
+  color: #E83235;
+}
+.all {
+  background-color: #F8F8F8;
+}
+.all .wudingdan {
+  display: block;
+  width: 391rpx;
+  height: 391rpx;
+  margin: 201rpx auto;
+}
+.all .dingdan {
+  background-color: #fff;
+  padding-bottom: 24rpx;
+  margin-bottom: 30rpx;
+}
+.all .dingdan .state {
+  box-sizing: border-box;
+  padding: 10rpx 28rpx;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 28rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 2rpx solid #E7E7E7;
+}
+.all .dingdan .state .orderNumber {
+  color: #222;
+}
+.all .dingdan .main {
+  width: 100%;
+  border-bottom: 2rpx solid #E3E1E1;
+  box-sizing: border-box;
+  padding: 19rpx 29rpx 12rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.all .dingdan .main image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+  background-color: #202020;
+  margin-right: 20rpx;
+}
+.all .dingdan .main .describe {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.all .dingdan .main .describe .shuliang {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 18rpx;
+}
+.all .dingdan .main .describe .shuliang .xiaokong {
+  height: 54rpx;
+  line-height: 28rpx;
+  box-sizing: border-box;
+  border-radius: 6rpx;
+  font-size: 26rpx;
+  padding: 10rpx;
+  color: #E83235;
+  border: 2rpx solid #E83235;
+}
+.all .dingdan .main .describe .shuliang .geshu {
+  font-size: 24rpx;
+}
+.all .dingdan .main .describe .jianjie {
+  display: block;
+  margin-top: -2rpx;
+  font-size: 28rpx;
+  color: #888;
+}
+.all .dingdan .heji {
+  box-sizing: border-box;
+  padding: 21rpx 32rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.all .dingdan .heji text {
+  font-size: 26rpx;
+  color: #222;
+}
+

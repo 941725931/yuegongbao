@@ -1,0 +1,249 @@
+.my {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #F5F5F5;
+  font-weight: 600;
+}
+.my .header {
+  width: 750rpx;
+  height: 240rpx;
+  background-color: #e83235;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  border-top: 1rpx solid #e83235;
+}
+.my .header .headerTop {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 74rpx;
+}
+.my .header .headerTop image {
+  width: 100rpx;
+  height: 101rpx;
+  border-radius: 50%;
+  margin-right: 37rpx;
+  background-color: #000;
+}
+.my .header .headerTop .focus {
+  height: 101rpx;
+  line-height: 50rpx;
+  color: #fff;
+}
+.my .header .headerTop .focus text {
+  display: block;
+}
+.my .header .headerTop .focus .city {
+  font-size: 32rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.my .header .headerTop .focus .more {
+  font-size: 26rpx;
+  letter-spacing: 4rpx;
+}
+.my .main {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.my .main .all {
+  width: 690rpx;
+  height: 287rpx;
+  background: #ffffff;
+  border-radius: 10rpx;
+  margin-top: -28rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.my .main .all .top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #d3d3d3;
+}
+.my .main .all .top .quanbu {
+  font-size: 30rpx;
+  color: #222;
+}
+.my .main .all .top .chakan text {
+  display: inline-block;
+  font-size: 26rpx;
+  line-height: 96rpx;
+  color: #888;
+  margin-right: 35rpx;
+}
+.my .main .all .top .chakan image {
+  width: 14rpx;
+  height: 24rpx;
+}
+.my .main .all .tubiao {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  height: 196rpx;
+}
+.my .main .all .tubiao .one {
+  box-sizing: border-box;
+  padding: 54rpx 0 57rpx;
+  margin-right: 25rpx;
+}
+.my .main .all .tubiao .one image {
+  display: block;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  width: 52rpx;
+  height: 43rpx;
+}
+.my .main .all .tubiao .one .aaa {
+  width: 35rpx;
+}
+.my .main .all .tubiao .one .ccc,
+.my .main .all .tubiao .one .ddd {
+  width: 43rpx;
+}
+.my .main .all .tubiao .one .ddd {
+  height: 37rpx;
+  margin-top: 6rpx;
+}
+.my .main .all .tubiao .one .wenben {
+  display: block;
+  font-weight: 600;
+  font-size: 26rpx;
+  color: #222;
+}
+.my .main .dianhua {
+  width: 690rpx;
+  height: 358rpx;
+  background: #ffffff;
+  border-radius: 10rpx;
+  margin-top: 28rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.my .main .dianhua .one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  line-height: 89rpx;
+  font-size: 30rpx;
+}
+.my .main .dianhua .one image {
+  width: 14rpx;
+  height: 24rpx;
+  margin-top: 32rpx;
+}
+.my .main .dianhua .one .two {
+  width: 200rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 22rpx;
+  color: #888;
+}
+.my .main .jiaru {
+  width: 690rpx;
+  height: 269rpx;
+  background: #ffffff;
+  border-radius: 10rpx;
+  margin-top: 28rpx;
+  margin-bottom: 41rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.my .main .jiaru .one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  line-height: 89rpx;
+  font-size: 30rpx;
+}
+.my .main .jiaru .one image {
+  width: 14rpx;
+  height: 24rpx;
+  margin-top: 32rpx;
+}
+.my .main .jiaru .one .button {
+  display: block;
+  line-height: 89rpx;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  padding: 0;
+  font-size: 30rpx;
+}
+.my .main .jiaru .one .button:after {
+  border: none;
+}
+.my .bottomWindow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.my .window {
+  position: fixed;
+  z-index: 999999;
+  bottom: -371rpx;
+  background-color: #fff;
+  height: 371rpx;
+  width: 100%;
+  background-color: #F7F7F7;
+  border-radius: 16rpx 16rpx 0px 0px;
+}
+.my .window text {
+  display: block;
+  text-align: center;
+  line-height: 117rpx;
+  background-color: #fff;
+}
+.my .window .number {
+  font-size: 28rpx;
+  color: #888;
+  border-bottom: 2rpx solid #EBEBEB;
+}
+.my .window .margin {
+  margin-top: 19rpx;
+}
+.my .window .hujiao {
+  font-size: 30rpx;
+  color: #222;
+  font-weight: 600;
+}
+.my .show {
+  -webkit-animation: run 0.4s;
+          animation: run 0.4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes run {
+to {
+    bottom: 0;
+}
+}
+@keyframes run {
+to {
+    bottom: 0;
+}
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "约工宝-专业打孔",
+  "usingComponents": {
+    "fuwu": "/pages/order/fuwu/fuwu",
+    "problem": "/pages/order/problem/problem",
+    "servicedetails": "/pages/order/Servicedetails/Servicedetails"
+  }
+}

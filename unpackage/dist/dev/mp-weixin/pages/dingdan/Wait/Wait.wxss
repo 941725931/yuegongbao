@@ -1,0 +1,172 @@
+.red {
+  color: #E83235;
+}
+.Wait {
+  background-color: #F8F8F8;
+}
+.Wait .wudingdan {
+  display: block;
+  width: 391rpx;
+  height: 391rpx;
+  margin: 201rpx auto;
+}
+.Wait .dingdan {
+  padding-bottom: 18rpx;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+.Wait .dingdan .state {
+  box-sizing: border-box;
+  padding: 10rpx 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-weight: 600;
+  font-size: 28rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 2rpx solid #E7E7E7;
+}
+.Wait .dingdan .state .orderNumber {
+  color: #222;
+}
+.Wait .dingdan .main {
+  width: 100%;
+  border-bottom: 2rpx solid #E3E1E1;
+  box-sizing: border-box;
+  padding: 19rpx 29rpx 12rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.Wait .dingdan .main image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+  background-color: #202020;
+  margin-right: 20rpx;
+}
+.Wait .dingdan .main .describe {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.Wait .dingdan .main .describe .shuliang {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 18rpx;
+}
+.Wait .dingdan .main .describe .shuliang .xiaokong {
+  height: 54rpx;
+  line-height: 28rpx;
+  box-sizing: border-box;
+  border-radius: 6rpx;
+  font-size: 26rpx;
+  padding: 10rpx;
+  color: #E83235;
+  border: 2rpx solid #E83235;
+}
+.Wait .dingdan .main .describe .shuliang .geshu {
+  font-size: 24rpx;
+}
+.Wait .dingdan .main .describe .jianjie {
+  display: block;
+  margin-top: -2rpx;
+  font-size: 28rpx;
+  color: #888;
+}
+.Wait .dingdan .heji {
+  box-sizing: border-box;
+  padding: 21rpx 32rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.Wait .dingdan .heji text {
+  font-size: 26rpx;
+  color: #222;
+}
+.Wait .dingdan .button {
+  box-sizing: border-box;
+  padding: 21rpx 32rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.Wait .dingdan .button view {
+  width: 149rpx;
+  text-align: center;
+  line-height: 47rpx;
+  color: #fff;
+  border-radius: 4rpx;
+  font-size: 26rpx;
+}
+.Wait .dingdan .button .wancheng {
+  background: #1D82FE;
+  margin-right: 36rpx;
+}
+.Wait .dingdan .button .quxiao {
+  background: #ED1F00;
+}
+.Wait .cancel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(51, 51, 51, 0.5);
+}
+.Wait .cancel .tanchuang {
+  position: absolute;
+  top: 349rpx;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 563rpx;
+  height: 303rpx;
+  background-color: #fff;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+}
+.Wait .cancel .tanchuang view {
+  margin-top: 84rpx;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 4rpx;
+}
+.Wait .cancel .tanchuang text {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  margin-top: 75rpx;
+  color: #1D82FE;
+}
+.Wait .cancel .queding {
+  box-sizing: border-box;
+  padding: 114rpx 0;
+}
+.Wait .cancel .queding .quedingxxx,
+.Wait .cancel .queding .quedingtop {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #2D2C3A;
+  font-weight: 600;
+  margin-top: 0rpx;
+}
+.Wait .cancel .queding .quedingtop {
+  margin-top: 20rpx;
+}
+

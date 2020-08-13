@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dingdan/dingdan",
+    "pages/my/my",
+    "pages/coupons/coupons",
+    "pages/newAddress/newAddress",
+    "pages/order/order",
+    "pages/stayin/stayin",
+    "pages/about/about",
+    "pages/merchants/merchants",
+    "pages/editAddress/editAddress",
+    "pages/address/address",
+    "pages/orderDetails/orderDetails",
+    "pages/SwitchAddress/SwitchAddress",
+    "pages/SwitchnewAddress/SwitchnewAddress",
+    "pages/serviceAgreement/serviceAgreement"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#E83235",
+    "backgroundColor": "#CC4541",
+    "onReachBottomDistance": 50
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取你的位置权限"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap93.json"
+}

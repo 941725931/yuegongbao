@@ -1,0 +1,72 @@
+.SwitchnewAddress {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #F8F8F8;
+}
+.SwitchnewAddress .header {
+  box-sizing: border-box;
+  padding: 36rpx 0 0 13rpx ;
+  color: #222;
+  background-color: #fff;
+}
+.SwitchnewAddress .header .text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+  margin-bottom: 30rpx;
+}
+.SwitchnewAddress .header .bitian {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: 2rpx solid #E3E1E1;
+  border-top: 1rpx solid transparent;
+  height: 84rpx;
+}
+.SwitchnewAddress .header .bitian .xxx {
+  opacity: 0;
+}
+.SwitchnewAddress .header .bitian .two {
+  color: #E83235;
+  font-size: 12rpx;
+  margin-top: 48rpx;
+  margin-right: 4rpx;
+}
+.SwitchnewAddress .header .bitian .tianxie {
+  margin-top: 34rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 26rpx;
+}
+.SwitchnewAddress .header .bitian .tianxie text {
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 90rpx;
+  width: 120rpx;
+}
+.SwitchnewAddress .header .bitian .tianxie .bitiantext {
+  width: 400rpx;
+  margin-right: 0rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.SwitchnewAddress .header .menpai {
+  border-bottom: none;
+  height: 94rpx;
+}
+.SwitchnewAddress .add {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  letter-spacing: 2rpx;
+  line-height: 98rpx;
+  background-color: #E73437;
+  color: #fff;
+  font-size: 34rpx;
+  text-align: center;
+}
+

@@ -1,0 +1,1 @@
+<view class="serviceAgreement"><view><rich-text nodes="{{text}}"></rich-text></view><view data-event-opts="{{[['tap',[['getCoupon',['$event']]]]]}}" class="bottom" bindtap="__e">我同意</view></view>
